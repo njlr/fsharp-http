@@ -1,0 +1,6 @@
+GENERATE-LOAD-SCRIPTS: ON
+STORAGE: NONE
+RESTRICTION: || (== netcoreapp3.1) (== netstandard2.1)
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    FSharp.Core (5.0)
